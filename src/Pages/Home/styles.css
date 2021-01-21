@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 52rem;
+}
+
+section[id=primary]{
+    background: rgb(34,137,195);
+    background: linear-gradient(0deg, rgba(34,137,195,0.9360119047619048) 0%, rgba(82,58,241,1) 69%);
+}
+
+section[id=secondary]{
+    background: rgb(58,34,195);
+    background: linear-gradient(0deg, rgba(82,58,241,1) 0%, rgba(34,137,195,1) 69%);
+}
+
+h1 {
+    color: red;
+    text-transform: uppercase;
+}
