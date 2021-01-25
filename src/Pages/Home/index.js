@@ -37,7 +37,7 @@ export default function Home() {
                 <div onClick={() => window.location.href= "mailto:luanpinhoo@gmail.com"}>
                     <MailIcon className="icons"/>
                 </div>
-                <div onClick={() => window.location.href= "https://www.linkedin.com/in/wanderson-pinho-ab87a5185/"}>
+                <div onClick={() => window.location.href= "https://github.com/luan2017/"}>
                     <GitHubIcon className="icons"/>
                 </div>
             </section>
