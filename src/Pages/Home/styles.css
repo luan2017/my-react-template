@@ -11,6 +11,15 @@ section[id=primary]{
     position: relative;
 }
 
+section[id=three]{
+    background: linear-gradient(0deg,  rgba(34,153,195,1) 82%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
 section[id=secondary]{
     display: flex;
     align-items: center;
@@ -81,11 +90,11 @@ h2 {
       }
       h1[id=name] {
           font-size: 60px;
-          margin: 20px;
+          margin-left: 15%;
       }
       h2 {
         font-size: 60px;
-        margin: 20px;
+        margin-left: 15%;
       }
 
       section[id=secondary] {
