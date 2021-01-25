@@ -28,18 +28,33 @@ export default function Home() {
                     <PsqlIcon />
             </section>
             <section id="secondary">
-                <div onClick={() => window.location.href= "https://api.whatsapp.com/send?phone=5567996576515"}>
-                        <WhatsAppIcon className="icons"/>
-                </div>
-                <div onClick={() => window.location.href= "https://www.linkedin.com/in/wanderson-pinho-ab87a5185/"}>
-                    <LinkedInIcon className="icons"/>
-                </div>
-                <div onClick={() => window.location.href= "mailto:luanpinhoo@gmail.com"}>
-                    <MailIcon className="icons"/>
-                </div>
-                <div onClick={() => window.location.href= "https://github.com/luan2017/"}>
-                    <GitHubIcon className="icons"/>
-                </div>
+                    <div id="biography">
+                        <h3>Sou um desenvolvedor motivado, com mais de 2 anos de experiência. Focado em
+                            resolução de problemas, possuo aptidão para comunicação, interação
+                            com equipes. Procuro estar sempre em busca de novidades na área para
+                            aplicar, divulgar e compartilhar conhecimento.
+                        </h3>
+                        <br/>
+                        <h3>
+                            Mais familizarizado com JavaScript(es6+) e seu ecossistema React e
+                            NodeJs. Atuando como fullstack, porém sempre tive mais afinidade com
+                            o desenvolvimento Frontend.
+                        </h3>
+                    </div>
+                    <div id="divIcons">
+                        <div id="borderButton" onClick={() => window.location.href= "https://api.whatsapp.com/send?phone=5567996576515"}>
+                                <WhatsAppIcon className="icons"/>
+                        </div>
+                        <div  id="borderButton" onClick={() => window.location.href= "https://www.linkedin.com/in/wanderson-pinho-ab87a5185/"}>
+                            <LinkedInIcon className="icons"/>
+                        </div>
+                        <div  id="borderButton" onClick={() => window.location.href= "mailto:luanpinhoo@gmail.com"}>
+                            <MailIcon className="icons"/>
+                        </div>
+                        <div id="borderButton" onClick={() => window.location.href= "https://github.com/luan2017/"}>
+                            <GitHubIcon className="icons"/>
+                        </div>
+                    </div>
             </section>
             </>
         </DefaultComponent>

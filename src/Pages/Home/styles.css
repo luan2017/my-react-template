@@ -25,11 +25,27 @@ section[id=secondary]{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
     background: linear-gradient(0deg, rgba(101,34,195,1) 0%, rgba(34,153,195,1) 82%);
 }
 
-section[id=secondary] div{
+section[id=secondary] div[id=biography]{
+    font-size: 25px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    width: 50%;
+  }
+
+div[id=divIcons]{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+section[id=secondary] div[id=borderButton]{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,13 +127,21 @@ h2[id=skills] {
 
       section[id=secondary] {
           display: flex;
-          align-items: flex-end;
-          justify-content: space-evenly;
-          flex-direction: row;
-          padding-bottom: 20px;
+          align-items: center;
+          justify-content: space-between;
+          padding: 25px 25px;
+          flex-direction: column;
           background: linear-gradient(0deg, rgba(101,34,195,1) 0%, rgba(34,153,195,1) 82%);
       }
-      section[id=secondary] div{
+
+      
+      section[id=secondary] div[id=biography]{
+        font-size: 18px;
+        color: white;
+         width: 100%;
+      }
+
+      section[id=secondary] div[id=borderButton]{
         display: flex;
         align-items: center;
         justify-content: center;
