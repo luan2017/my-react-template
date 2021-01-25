@@ -13,10 +13,10 @@ export default function Home() {
             <>
             <section id="primary">
                 <h1 id="name">Wanderson Pinho</h1>
-                <h2>FullStack Developer</h2>
+                <h2 id="dev">FullStack Developer</h2>
             </section>
             <section id="three">
-                <h2>Skills</h2>
+                <h2 id="skills">Experiências</h2>
                     <JsIcon/>
                     <ReactIcon />
                     <NodeIcon />
