@@ -45,7 +45,7 @@ div[id=divIcons]{
     width: 100%;
 }
 
-section[id=secondary] div[id=borderButton]{
+section[id=secondary] a[id=borderButton]{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,7 +141,7 @@ h2[id=skills] {
          width: 100%;
       }
 
-      section[id=secondary] div[id=borderButton]{
+      section[id=secondary] a[id=borderButton]{
         display: flex;
         align-items: center;
         justify-content: center;

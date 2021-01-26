@@ -42,18 +42,18 @@ export default function Home() {
                         </h3>
                     </div>
                     <div id="divIcons">
-                        <div id="borderButton" onClick={() => window.location.href= "https://api.whatsapp.com/send?phone=5567996576515"}>
+                        <a href="https://api.whatsapp.com/send?phone=5567996576515" target="blank" id="borderButton">
                                 <WhatsAppIcon className="icons"/>
-                        </div>
-                        <div  id="borderButton" onClick={() => window.location.href= "https://www.linkedin.com/in/wanderson-pinho-ab87a5185/"}>
+                        </a>
+                        <a href="https://www.linkedin.com/in/wanderson-pinho-ab87a5185/" target="blank" id="borderButton">
                             <LinkedInIcon className="icons"/>
-                        </div>
-                        <div  id="borderButton" onClick={() => window.location.href= "mailto:luanpinhoo@gmail.com"}>
+                        </a>
+                        <a href="mailto:luanpinhoo@gmail.com" target="blank" id="borderButton">
                             <MailIcon className="icons"/>
-                        </div>
-                        <div id="borderButton" onClick={() => window.location.href= "https://github.com/luan2017/"}>
+                        </a>
+                        <a href="https://github.com/luan2017/" target="blank" id="borderButton" >
                             <GitHubIcon className="icons"/>
-                        </div>
+                        </a>
                     </div>
             </section>
             </>
